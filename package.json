@@ -1,0 +1,14 @@
+{
+  "name": "theatersoft",
+  "version": "1.0.0",
+  "description": "Theatersoft Home installer",
+  "scripts": {
+    "postinstall": "echo installing @theatersoft/home"
+  },
+  "keywords": [],
+  "author": "Rob Huehn <rob@theatersoft.com>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@theatersoft/home": "~2"
+  }
+}
