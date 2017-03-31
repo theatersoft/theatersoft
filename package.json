@@ -7,7 +7,15 @@
     "config": "node home config",
     "debug": "node --inspect-brk home config"
   },
-  "keywords": [],
+  "repository": "theatersoft/theatersoft",
+  "keywords": [
+    "home",
+    "automation",
+    "control",
+    "monitor",
+    "security",
+    "surveillance"
+  ],
   "author": "Rob Huehn <rob@theatersoft.com>",
   "license": "AGPL-3.0",
   "dependencies": {
