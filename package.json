@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Theatersoft Home installer",
   "scripts": {
-    "postinstall": "echo installing @theatersoft/home"
+    "postinstall": "echo installing @theatersoft/home",
+    "config": "node home config",
+    "debug": "node --inspect-brk home config"
   },
   "keywords": [],
   "author": "Rob Huehn <rob@theatersoft.com>",
