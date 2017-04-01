@@ -1,6 +1,6 @@
 {
   "name": "theatersoft",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "npm shortcut to @theatersoft/home",
   "repository": "theatersoft/theatersoft",
   "keywords": [
@@ -14,7 +14,7 @@
   "author": "Rob Huehn <rob@theatersoft.com>",
   "license": "AGPL-3.0",
   "scripts": {
-    "postinstall": "npm explore @theatersoft/home npm run config"
+    "postinstall": "cd ../..; npm explore @theatersoft/home npm run config"
   },
   "dependencies": {
     "@theatersoft/home": "~2"
