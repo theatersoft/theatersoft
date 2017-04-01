@@ -9,15 +9,15 @@
 This package is a shortcut to install a single dependency (@theatersoft/home) and create a local site configuration package.
 
  ```
- mkdir theatersoft; cd theatersoft; npm install theatersoft
+ mkdir site; cd $_; npm install theatersoft
 ```
 
->Upon completion the `theatersoft` directory contains:
+>Upon completion your `site` directory contains:
 >```
 >├── config.json
 >├── deploy
 >├── node_modules
 >└── package.json
 >```
->...and is ready to deploy using `npm run deploy-${HOSTNAME}`. See
+>...and is ready to deploy using `npm run deploy`. See
 **[@theatersoft/home](https://www.npmjs.com/package/@theatersoft/home)** for more information.
