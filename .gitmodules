@@ -19,3 +19,6 @@
 [submodule "home"]
 	path = home
 	url = git@github.com:theatersoft/home.git
+[submodule "serial"]
+	path = serial
+	url = git@github.com:theatersoft/serial.git
