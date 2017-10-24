@@ -25,3 +25,6 @@
 [submodule "server"]
 	path = server
 	url = git@github.com:theatersoft/server.git
+[submodule "x10"]
+	path = x10
+	url = git@github.com:theatersoft/x10.git
