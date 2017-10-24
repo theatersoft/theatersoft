@@ -4,3 +4,6 @@
 [submodule "bus"]
 	path = bus
 	url = git@github.com:theatersoft/bus.git
+[submodule "device"]
+	path = device
+	url = git@github.com:theatersoft/device.git
