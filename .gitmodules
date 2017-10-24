@@ -16,3 +16,6 @@
 [submodule "focus"]
 	path = focus
 	url = git@github.com:theatersoft/focus.git
+[submodule "home"]
+	path = home
+	url = git@github.com:theatersoft/home.git
