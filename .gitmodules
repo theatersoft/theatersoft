@@ -7,3 +7,6 @@
 [submodule "device"]
 	path = device
 	url = git@github.com:theatersoft/device.git
+[submodule "client"]
+	path = client
+	url = git@github.com:theatersoft/client.git
