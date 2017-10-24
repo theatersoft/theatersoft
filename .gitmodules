@@ -28,3 +28,6 @@
 [submodule "x10"]
 	path = x10
 	url = git@github.com:theatersoft/x10.git
+[submodule "zwave"]
+	path = zwave
+	url = git@github.com:theatersoft/zwave.git
