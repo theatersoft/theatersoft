@@ -1,3 +1,6 @@
 [submodule "automation"]
 	path = automation
 	url = git@github.com:theatersoft/automation.git
+[submodule "bus"]
+	path = bus
+	url = git@github.com:theatersoft/bus.git
