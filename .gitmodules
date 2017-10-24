@@ -22,3 +22,6 @@
 [submodule "serial"]
 	path = serial
 	url = git@github.com:theatersoft/serial.git
+[submodule "server"]
+	path = server
+	url = git@github.com:theatersoft/server.git
