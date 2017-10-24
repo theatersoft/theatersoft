@@ -13,3 +13,6 @@
 [submodule "components"]
 	path = components
 	url = git@github.com:theatersoft/components.git
+[submodule "focus"]
+	path = focus
+	url = git@github.com:theatersoft/focus.git
