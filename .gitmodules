@@ -10,3 +10,6 @@
 [submodule "client"]
 	path = client
 	url = git@github.com:theatersoft/client.git
+[submodule "components"]
+	path = components
+	url = git@github.com:theatersoft/components.git
