@@ -10,20 +10,8 @@
 >* The open source platform currently includes home automation, control, monitoring, security, camera surveillance, and is easily extensible.
 >* The platform is highly flexible and enables a distributed system using multiple hosts, with service modules connecting devices wherever needed.
 
-### Installation
+### Development
 
-This package is a shortcut to install a single dependency (@theatersoft/home) and create a local site configuration package.
+This is a Git repo containing a set of core @theatersoft submodules, provided as a convenience to quickly clone the development environment.
 
- ```
- mkdir site; cd $_; npm install theatersoft
-```
-
->Upon completion your `site` directory contains:
->```
->├── config.json
->├── deploy
->├── node_modules
->└── package.json
->```
->...and is ready to deploy using `npm run deploy`. See
-**[@theatersoft/home](https://www.npmjs.com/package/@theatersoft/home)** for more information.
+Remember to `git submodule update --init` if you've cloned the repo without using `git clone --recursive` .
