@@ -6,10 +6,10 @@
   "author": "Rob Huehn <rob@theatersoft.com>",
   "license": "AGPL-3.0",
   "scripts": {
-    "rm:dist": "for D in bus device automation serial x10 zwave components focus client server; do rm -rvf $D/dist; done",
-    "rm:node_modules": "for D in bus device automation serial x10 zwave components focus client server; do rm -rvf $D/node_modules; done",
-    "build": "for D in bus device automation serial x10 zwave components focus client server; do (set -x; cd $D && npm run build); done",
-    "build:dist": "for D in bus device automation serial x10 zwave components focus client server; do (set -x; cd $D && npm run build:dist); done",
-    "install-link-build-install-link": "for D in bus device automation serial x10 zwave components focus client server; do (set -x; cd $D && npm i --no-package-lock && npm run link && npm run build && cd dist && npm i --no-package-lock && npm run link); done"
+    "rm:dist": "for D in `cat modules`; do rm -rvf $D/dist; done",
+    "rm:node_modules": "for D in `cat modules`; do rm -rvf $D/node_modules; done",
+    "build": "for D in `cat modules`; do (set -x; cd $D && npm run build); done",
+    "build:dist": "for D in `cat modules`; do (set -x; cd $D && npm run build:dist); done",
+    "install-link-build-install-link": "for D in `cat modules`; do (set -x; cd $D && npm i --no-package-lock && npm run link && npm run build && cd dist && npm i --no-package-lock && npm run link); done"
   }
 }
